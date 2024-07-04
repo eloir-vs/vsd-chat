@@ -1,0 +1,20 @@
+<div>
+  <form>
+    <input type="text" [formControl]="username" placeholder="Seu username" />
+    <br />
+    <br />
+    <button type="submit" (click)="connect()">Conectar</button>
+  </form>
+ <br />
+ <br />
+
+  <form>
+
+    <textarea rows="2" cols="30"  [formControl]="messageInput"  >
+    </textarea>
+    <br />
+    <br />
+    <button type="submit" (click)="sendMessage()">Enviar</button>
+  </form>
+
+</div>
